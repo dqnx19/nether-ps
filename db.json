@@ -1,0 +1,26 @@
+[
+    {
+        "name": "log",
+        "what_it_does": "Writes message to console using Write-Host",
+        "parameters": "message",
+        "example_usage": [
+            "log(`Hello World!`)"
+        ]
+    },
+    {
+        "name": "logWarning",
+        "what_it_does": "Writes warning to console using Write-Warning",
+        "parameters": "message",
+        "example_usage": [
+            "logWarning(`Hello, World!`)"
+        ]
+    },
+    {
+        "name": "logError",
+        "what_it_does": "Writes error to console using Write-Error",
+        "parameters": "message",
+        "example_usage": [
+            "logError(`Hello, World!`)"
+        ]
+    }
+]
